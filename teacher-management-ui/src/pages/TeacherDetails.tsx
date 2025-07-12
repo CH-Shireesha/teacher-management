@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, Edit, Save, X, Calendar, Clock, User, Mail, Phone, MapPin, GraduationCap, DollarSign } from 'lucide-react';
+import { ArrowLeft, Save, X, Calendar, Clock, User, Mail, Phone, MapPin, GraduationCap, DollarSign } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { Badge } from '../components/ui/badge';
