@@ -290,7 +290,7 @@ const AddTeacher: React.FC = () => {
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
-            {privateQualifications.map((qual, index) => (
+            {privateQualifications.map((qual) => (
               <div key={qual.id} className="flex items-end space-x-4 p-4 border border-gray-200 rounded-lg">
                 <div className="flex-1 space-y-2">
                   <Label>Subject</Label>
